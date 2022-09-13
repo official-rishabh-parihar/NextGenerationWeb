@@ -1,5 +1,5 @@
-# Next-Generation-Web
+# Next Generation Web
 
-Official Website for Next Generation Web Studio!
+Official Website for Next Generation Web (NGW).
 
 https://next-generation-web.netlify.app/
