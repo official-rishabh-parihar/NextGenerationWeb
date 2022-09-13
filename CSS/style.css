@@ -1,0 +1,670 @@
+/* -----CSS-Styles----- */
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#fscr{
+    position: fixed;
+    z-index: 99999999;
+    top: 0;
+    left: -110%;
+    -webkit-transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    -o-transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+
+#fscr i{
+    position: absolute;
+    top: 4%;
+    right: 4%;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+#fscr a{
+    margin-top: 20px;
+    color: rgb(68, 68, 68);
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#fscr a:hover{
+    color: #00B0FF;
+}
+
+nav{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+    height: 90px;
+    padding: 0 70px;
+    background-color: #fff;
+}
+
+nav>img{
+    width: 140px;
+}
+
+nav #links{
+    margin-left: -120px;
+}
+
+nav #links a{
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(68, 68, 68);
+    font-weight: 700;
+    margin-left: 40px;
+    font-family: 'Raleway', sans-serif;
+}
+
+nav #links a:hover{
+    color: #00B0FF;
+}
+
+nav>a{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    color: rgb(0, 176, 255);
+    font-family: 'Raleway', sans-serif;
+}
+
+nav>a>i{
+    margin-right: 10px;
+}
+
+#frontImage{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+#frontImage img{
+    width: 50%;
+}
+
+#main{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 15px;
+}
+
+#main h1{
+    font-size: 42px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    color: rgb(60, 60, 60);
+}
+
+#main h1 span{
+    color: #00B0FF;
+    font-family: 'Playfair Display', serif;
+}
+
+#main h5{
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: 600;
+    color: rgb(90, 90, 90);
+}
+
+#main>i{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 30px;
+    height: 30px;
+    font-weight: 600;
+    color: rgb(85, 173, 231);
+    border-radius: 50%;
+    border: 2px solid rgb(85, 173, 231);
+    background-color: transparent;
+}
+
+#main>a{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 15px 42px;
+    margin-top: 25px;
+    -webkit-box-shadow: 0 5px 40px rgb(68, 208, 218);
+            box-shadow: 0 5px 40px rgb(68, 208, 218);
+    border-radius: 100px;
+    color: #fff;
+    background-color: rgb(0, 176, 255);
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+}
+
+#banner{
+    width: 100%;
+}
+
+#courseBanner{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 90%;
+    min-height: 500px;
+}
+
+.leftcrsbnr{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 55%;
+    min-height: 500px;
+}
+
+.crsimage{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 90%;
+    min-height: 360px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 40px 50px -45px rgba(0,0,0,0.3);
+            box-shadow: 0 40px 50px -45px rgba(0,0,0,0.3);
+    background-color: #F8B3C9;
+}
+
+.crsimage img{
+    width: 100%;
+}
+
+.rightcrsbnr{
+    padding: 70px 0;
+    width: 45%;
+    min-height: 500px;
+    color: #555;
+}
+
+.rightcrsbnr h1{
+    font-size: 34px;
+    margin-bottom: 10px;
+    font-family: 'Playfair Display', serif;
+    color: rgb(60, 60, 60);
+}
+
+.rightcrsbnr h1 span{
+    color: #ee749b;
+    font-family: 'Playfair Display', serif;
+}
+
+.rightcrsbnr h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: rgb(90, 90, 90);
+}
+
+.rightcrsbnr p{
+    font-size: 12px;
+    width: 80%;
+    line-height: 16px;
+    margin: 20px 0 10px 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.rightcrsbnr a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #ee749b;
+    color: #fff;
+    padding: 14px 36px;
+    margin-top: 20px;
+    border-radius: 100px;
+    -webkit-box-shadow: 0 5px 40px #ff94b6;
+            box-shadow: 0 5px 40px #ff94b6;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+}
+
+#brandswork{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    min-height: 200px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#brandswork h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 34px;
+    margin-bottom: 20px;
+    color: rgb(60, 60, 60);
+}
+
+.brands{
+    width: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.brands:nth-child(3){
+    width: 50%;
+}
+
+.brands h4{
+    font-family: 'Playfair Display', serif;
+    opacity: .4;
+    font-size: 20px;
+    font-weight:800;
+}
+
+#brandswork a{
+    margin-top: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-transform: capitalize;
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+    color: #555;
+    font-weight: 700;
+    -webkit-transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    -o-transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#brandswork a i{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+#brandswork a:hover{
+    text-shadow: 0 0px 12px rgba(0,0,0,0.2);
+}
+
+#banner-1{
+    width: 100%;
+}
+
+#courseBanner-1{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 90%;
+    min-height: 300px;
+}
+
+.leftcrsbnr-1{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 55%;
+    min-height: 300px;
+}
+
+.crsimage-1{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 90%;
+    min-height: 300px;
+    border-radius: 10px;
+}
+
+.crsimage-1 img{
+    width: 40%;
+    border-radius: 50%;
+}
+
+.rightcrsbnr-1{
+    padding: 70px 0;
+    width: 45%;
+    min-height: 300px;
+    color: #555;
+}
+
+.rightcrsbnr-1 h1{
+    font-size: 34px;
+    margin-bottom: 10px;
+    font-family: 'Playfair Display', serif;
+    color: rgb(60, 60, 60);
+}
+
+.rightcrsbnr-1 h1 span{
+    color: #ee749b;
+    font-family: 'Playfair Display', serif;
+}
+
+.rightcrsbnr-1 h5{
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Raleway', sans-serif;
+    color: #73c94b;
+}
+
+.rightcrsbnr-1 h4{
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(90, 90, 90);
+}
+
+.rightcrsbnr-1 p{
+    font-size: 12px;
+    width: 80%;
+    line-height: 18px;
+    margin: 20px 0 10px 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.rightcrsbnr-1 a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #73c94b;
+    color: #fff;
+    padding: 14px 36px;
+    margin-top: 20px;
+    border-radius: 100px;
+    -webkit-box-shadow: 0 5px 40px #73c94b;
+            box-shadow: 0 5px 40px #73c94b;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+}
+
+body > h5{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    letter-spacing: .4px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-bottom: 30px;
+    color: rgb(73, 73, 73);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:500;
+}
+
+body > h5 i{
+    margin: 0 5px;
+    color: rgb(71, 71, 71);
+}
+
+/* -----CSS-Styles----- */
+
+/* -----@Media-Queries----- */
+
+@media(max-width: 600px){
+    #fscr a{
+        font-size: 15px;
+        font-weight: 600;
+    }
+    nav{
+        padding: 0 30px;
+    }
+    nav #links{
+        display: none;
+    }
+    nav>img{
+        width: 120px;
+    }
+    #frontImage{
+        min-height: 220px;
+    }
+    #frontImage img{
+        width: 100%;
+    }
+    #main{
+        padding: 0 20px;
+        min-height: 300px;
+        margin-top: -40px;
+    }
+    #main h1{
+        font-size: 22px;
+    }
+    #main h5{
+        text-align: center;
+        font-size: 10px;
+    }
+    #main>i{
+        width: 20px;
+        height: 20px;
+        font-size: 9px;
+    }
+    #main a{
+        font-size: 10px;
+        letter-spacing: .7px;
+        font-weight: 500;
+        padding: 13px 18px;
+    }
+    #bigImage{
+        min-height: 40vh;
+    }
+    #bigImage img{
+        width: 100%;
+    }
+    #courseBanner{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .leftcrsbnr{
+        width: 100%;
+        min-height: 260px;
+    }
+    .leftcrsbnr .crsimage{
+        width: 100%;
+        height: 260px;
+    }
+    .rightcrsbnr{
+        width: 100%;
+        min-height: 320px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-self: center;
+        text-align: center;
+    }
+    #brandswork{
+         margin-bottom: 60px;
+         margin-top: 20px;
+         text-align: center;
+    }
+    #brandswork h1{
+        font-size: 25px;
+    }
+    .brands{
+        display: initial;
+        width: 100%;
+        margin-left: -30px;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+    .brands:nth-child(3){
+        width: 100%;
+    }
+    .brands h4{
+        opacity: .25;
+        margin-top: 15px;
+        font-size: 17px;
+        margin-left: 30px;
+    }
+    #brandswork a{
+        margin-top: 40px;
+        font-size: 15px;
+    }
+    #courseBanner-1{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .leftcrsbnr-1{
+        width: 100%;
+        min-height: 260px;
+        /* background-color: red; */
+    }
+    .leftcrsbnr-1 .crsimage-1{
+        width: 100%;
+        height: 260px;
+    }
+    .rightcrsbnr-1{
+        width: 100%;
+        min-height: 320px;
+        margin-top: -90px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-self: center;
+        text-align: center;
+    }
+    body>h5{
+        display: inline-block;
+        font-size: 9px;
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 70px;
+        margin-top: 40px;
+        /* margin: 0 auto; */
+        /* background-color: yellow; */
+    }
+    body>h5>i{
+        margin: 0;
+    }
+}
+
+/* -----@Media-Queries----- */
